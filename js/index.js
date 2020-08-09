@@ -129,11 +129,11 @@ let ALLCodeFunction = (data)=>{
                     console.log(e)
                     document.getElementById('tooltip').style.top = e.y+20+'px' ;
                     document.getElementById('tooltip').style.left = e.x-20+'px' ;
-                    this.style.border = "1px solid #000"
+
             })})
             .on('mouseout',function(d){
                 document.getElementById('tooltip').style.visibility = "hidden";
-                this.style.border = "none"
+
 
             })
 
